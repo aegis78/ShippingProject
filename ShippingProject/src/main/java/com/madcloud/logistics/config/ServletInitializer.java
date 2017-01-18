@@ -6,6 +6,7 @@ import org.springframework.boot.context.web.SpringBootServletInitializer;
 import com.madcloud.logistics.ShippingProjectApplication;
 
 
+@SuppressWarnings("deprecation")
 public class ServletInitializer extends SpringBootServletInitializer {
 	
 	@Override
