@@ -14,17 +14,17 @@ spring:
   profiles: local 
 
  ### openData DataSource
-#  datasource:
-#    driverClassName: com.mysql.jdbc.Driver   
-#    url: jdbc:mysql://10.100.0.143:9090/opendata
-#    username: sri_dev
-#    password: tkfkadlsroqkfwk)^!*
-#    initial-size: 50
-#    max-active: 200
-#    max-idle: 100
-#    min-idle: 50
-#    max-wait: 10000
-#    validationQuery: SELECT 1
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver   
+    url: jdbc:mysql://shipping-rds-mysql.ckdee1edixyi.ap-northeast-2.rds.amazonaws.com:3306/shipping
+    username: madcloud
+    password: hjsj0423
+    initial-size: 50
+    max-active: 200
+    max-idle: 100
+    min-idle: 50
+    max-wait: 10000
+    validationQuery: SELECT 1
     
 #### logback set
 logging:
@@ -43,18 +43,18 @@ server:
 spring:
   profiles: development
 
-### openData DataSource
-#  datasource:
-#    driverClassName: com.mysql.jdbc.Driver   
-#    url: jdbc:mysql://10.100.0.143:9090/opendata
-#    username: sri_dev
-#    password: tkfkadlsroqkfwk)^!*
-#    initial-size: 50
-#    max-active: 200
-#    max-idle: 100
-#    min-idle: 50
-#    max-wait: 10000
-#    validationQuery: SELECT 1
+ ### openData DataSource
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver   
+    url: jdbc:mysql://shipping-rds-mysql.ckdee1edixyi.ap-northeast-2.rds.amazonaws.com:3306/shipping
+    username: madcloud
+    password: hjsj0423
+    initial-size: 50
+    max-active: 200
+    max-idle: 100
+    min-idle: 50
+    max-wait: 10000
+    validationQuery: SELECT 1
     
     
 #### logback set
@@ -74,18 +74,18 @@ server:
 spring:
   profiles: production
 
-### openData DataSource
-#  datasource:
-#    driverClassName: com.mysql.jdbc.Driver   
-#    url: jdbc:mysql://10.100.0.143:9090/opendata
-#    username: sri_dev
-#    password: tkfkadlsroqkfwk)^!*
-#    initial-size: 50
-#    max-active: 200
-#    max-idle: 100
-#    min-idle: 50
-#    max-wait: 10000
-#    validationQuery: SELECT 1
+ ### openData DataSource
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver   
+    url: jdbc:mysql://shipping-rds-mysql.ckdee1edixyi.ap-northeast-2.rds.amazonaws.com:3306/shipping
+    username: madcloud
+    password: hjsj0423
+    initial-size: 50
+    max-active: 200
+    max-idle: 100
+    min-idle: 50
+    max-wait: 10000
+    validationQuery: SELECT 1
     
 #### logback set
 logging:
