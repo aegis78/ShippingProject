@@ -46,9 +46,9 @@ spring:
  ### openData DataSource
   datasource:
     driverClassName: com.mysql.jdbc.Driver   
-    url: jdbc:mysql://shipping-rds-mysql.ckdee1edixyi.ap-northeast-2.rds.amazonaws.com:3306/shipping
-    username: madcloud
-    password: hjsj0423
+    url: jdbc:mysql://${RDS_MYSQL_HOST}:${RDS_MYSQL_PORT}/${RDS_MYSQL_DATABASE}
+    username: ${RDS_MYSQL_USERNAME}
+    password: ${RDS_MYSQL_PASSWORD}
     initial-size: 50
     max-active: 200
     max-idle: 100
@@ -77,9 +77,9 @@ spring:
  ### openData DataSource
   datasource:
     driverClassName: com.mysql.jdbc.Driver   
-    url: jdbc:mysql://shipping-rds-mysql.ckdee1edixyi.ap-northeast-2.rds.amazonaws.com:3306/shipping
-    username: madcloud
-    password: hjsj0423
+    url: jdbc:mysql://${RDS_MYSQL_HOST}:${RDS_MYSQL_PORT}/${RDS_MYSQL_DATABASE}
+    username: ${RDS_MYSQL_USERNAME}
+    password: ${RDS_MYSQL_PASSWORD}
     initial-size: 50
     max-active: 200
     max-idle: 100
