@@ -19,18 +19,15 @@ public class SampleController {
 	
 	@RequestMapping({ "/", "/logistics" })
 	public String index(Model model) {
-		model.addAttribute("name", "Spring boot Madcluod First Project");
+		
+		String currentTime = mainService.getCurrentTime();
 		logger.debug("SQL================TEST===== getCurrentDate = {}", mainService.getCurrentTime());
+		
+		model.addAttribute("name", "MadCloud");		
+		model.addAttribute("time", currentTime);
+				
 		
 		return "index";
-	}
-	
-	@RequestMapping("/test")
-	public String test(Model model) {
-		model.addAttribute("name", "Spring boot Madcluod First Project");
-		logger.debug("SQL================TEST===== getCurrentDate = {}", mainService.getCurrentTime());
-		
-		return "contents";
 	}
 	
 }

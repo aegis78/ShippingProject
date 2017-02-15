@@ -37,7 +37,9 @@
 			<div class="wrap">
 				<div class="textwidget">
 					<h1 class="wow fadeInDown">Bulkmatching.com</h1>
+					<h1 class="wow fadeInDown">${time}</h1>
 					<h2 class="wow fadeInUp">Glogal Bulk Matching System.</h2>
+					<h2 class="wow fadeInUp">${name}</h2>
 					<div class="actions">
 						<a href="#" title="Our services" class="btn large white wow fadeInLeft anchor">Our services</a>
 						<a href="#" title="Make a booking" class="btn large color wow fadeInRight anchor">Make a booking</a>
