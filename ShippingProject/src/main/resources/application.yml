@@ -16,7 +16,7 @@ spring:
  ### openData DataSource
   datasource:
     driverClassName: com.mysql.jdbc.Driver   
-    url: jdbc:mysql://shipping-rds-mysql.ckdee1edixyi.ap-northeast-2.rds.amazonaws.com:3306/shipping
+    url: jdbc:mysql://madcloud-rds.ckdee1edixyi.ap-northeast-2.rds.amazonaws.com:3306/bulkmatch
     username: madcloud
     password: hjsj0423
     initial-size: 50

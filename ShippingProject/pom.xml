@@ -5,7 +5,7 @@
 
 	<groupId>com.madcloud.logistics</groupId>
 	<artifactId>ship-logistics</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<name>ShippingProject</name>
