@@ -11,7 +11,7 @@ import com.navercorp.lucy.security.xss.servletfilter.XssEscapeServletFilter;
 public class WebConfig extends WebMvcConfigurerAdapter{
 	/*
      * lucy-xss-filter
-     *  
+     *   
      * */
     @Bean
     public FilterRegistrationBean getFilterRegistrationBean(){
